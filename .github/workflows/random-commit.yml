@@ -1,0 +1,49 @@
+name: Daily Study Commit
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 每天一次（UTC 16点）
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate study logs
+        run: |
+          mkdir -p study
+
+          COUNT=$((RANDOM % 5 + 1))   # 1~5次提交
+          echo "commit count: $COUNT"
+
+          TOPICS=(
+            "study Java"
+            "study Python"
+            "solve algorithm problem"
+            "learn GitHub Actions"
+            "practice SpringBoot"
+            "read development docs"
+            "debug code issue"
+          )
+
+          for i in $(seq 1 $COUNT)
+          do
+            TOPIC=${TOPICS[$RANDOM % ${#TOPICS[@]}]}
+            echo "📚 $TOPIC" >> study/log.md
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+
+          git commit -m "📚 daily study update" || echo "no changes"
+
+      - name: Push
+        run: |
+          git push
