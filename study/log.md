@@ -5,3 +5,6 @@
 📚 practice SpringBoot
 📚 read development docs
 📚 debug code issue
+📚 study Python
+📚 study Python
+📚 debug code issue
