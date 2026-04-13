@@ -8,3 +8,6 @@
 📚 study Python
 📚 study Python
 📚 debug code issue
+📚 solve algorithm problem
+📚 practice SpringBoot
+📚 study Java
