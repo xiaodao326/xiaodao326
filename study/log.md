@@ -11,3 +11,8 @@
 📚 solve algorithm problem
 📚 practice SpringBoot
 📚 study Java
+📚 practice SpringBoot
+📚 learn GitHub Actions
+📚 debug code issue
+📚 read development docs
+📚 study Java
