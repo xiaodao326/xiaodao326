@@ -32,7 +32,7 @@ jobs:
           for i in $(seq 1 $COUNT)
           do
             TOPIC=${TOPICS[$RANDOM % ${#TOPICS[@]}]}
-            echo "📚 $TOPIC" >> study/log.md
+            echo "📚 $TOPIC at $(date)" >> study/log.md
           done
 
       - name: Commit changes
