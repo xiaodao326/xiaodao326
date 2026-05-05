@@ -72,3 +72,6 @@
 📚 practice SpringBoot at Mon May  4 10:12:57 UTC 2026
 📚 solve algorithm problem at Mon May  4 10:12:57 UTC 2026
 📚 study Python at Mon May  4 10:12:57 UTC 2026
+📚 study Java at Tue May  5 10:02:38 UTC 2026
+📚 practice SpringBoot at Tue May  5 10:02:38 UTC 2026
+📚 debug code issue at Tue May  5 10:02:38 UTC 2026
