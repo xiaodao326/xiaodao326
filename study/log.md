@@ -90,3 +90,4 @@
 📚 study Java at Mon May 11 11:19:38 UTC 2026
 📚 solve algorithm problem at Mon May 11 11:19:38 UTC 2026
 📚 learn GitHub Actions at Mon May 11 11:19:38 UTC 2026
+📚 practice SpringBoot at Tue May 12 10:31:17 UTC 2026
