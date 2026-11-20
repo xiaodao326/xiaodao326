@@ -676,3 +676,5 @@
 📚 solve algorithm problem at Thu Nov 19 17:03:32 UTC 2026
 📚 practice SpringBoot at Thu Nov 19 17:03:32 UTC 2026
 📚 learn GitHub Actions at Thu Nov 19 17:03:32 UTC 2026
+📚 study Python at Fri Nov 20 16:43:09 UTC 2026
+📚 debug code issue at Fri Nov 20 16:43:09 UTC 2026
